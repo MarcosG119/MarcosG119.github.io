@@ -13,6 +13,8 @@ import SF_Rooftop from './images/rooftop.jpeg';
 
 import Container from '../../components/elements/container/Container.tsx';
 
+import './Homepage.css';
+
 
 
 const PhiloText: string = "\tI subscribe to the school of stoicism, meaning that I look for happiness in fulfilling some purpose. That purpose usually takes the form of some kind of challenge; the stress of challenging situations forces me to grow and get better not only for myself but also those around me. This is why I continuously put myself into new situations or learn new hobbies such as boxing, brazilian jiu jitsu, barbering, and even djing.\n\n\tI believe with time and consistency anything is possible. Nothing in my life has ever come easy, but there has never been anything that I couldn't overcome with time and consistency. Results may not come fast, you may even be stagnant, but if you just stay consistent over time you will surprise yourself. This has always been the case whether the challenge has been about life, fitness, education, or even in my work endeavors.";
