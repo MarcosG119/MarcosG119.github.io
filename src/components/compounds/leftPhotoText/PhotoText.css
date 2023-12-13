@@ -1,0 +1,25 @@
+#row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#column{
+    flex:50%;
+}
+
+#column p{
+    margin: auto;
+    width: 95%;
+    margin-left: auto;
+    margin-right:auto;
+    white-space: pre-wrap;
+    font-family: Verdana, Arial;
+    text-align: left;
+}
+
+#column img{
+    display: block;
+    margin:auto;
+    width: 75%;
+}

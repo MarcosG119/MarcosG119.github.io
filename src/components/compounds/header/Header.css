@@ -1,0 +1,119 @@
+/*----------------------
+Overall Header Styling
+------------------------*/
+html, header{
+    width: 100%;
+}
+     
+header{
+    overflow: hidden;
+    background: rgb(30, 30, 30);
+
+}
+
+a, a:visited{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+
+.header{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-h1{
+    font-family: Copperplate, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 200%;
+
+    padding-top: 2%;
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+
+}
+
+.header-h1:hover,.header-h1 Link{
+    font-family: Copperplate, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 200%;
+
+    padding-top: 2%;
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+
+    text-decoration: none;
+
+}
+ 
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+/*----------------------
+Navigation menu Styling
+-----------------------*/
+
+#header ol, ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#menu{
+    flex: center;
+    width: 75%;
+    height: 100%;
+    margin: auto;
+}
+     
+#menu ul{
+    text-align: center;
+    flex: center;
+    margin: auto;
+    
+}
+     
+#menu li{
+    display: inline-flex;
+    padding: none;
+    margin: none;
+    background: rgb(30, 30, 30);
+}
+     
+#menu li a, #menu li span, #menu li Link{
+    display: inline-block;
+    padding: 0em 1.5em;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 300% ;
+}
+     
+#menu li a, li Link{
+         
+    color: #FFF;
+}
+     
+#menu li:hover a, #menu li:hover Link, #menu li span{
+    background: blanchedalmond;
+    color: rgb(30, 30, 30);
+    border-left: 1% solid rgb(30, 30, 30);
+    border-radius: 25% 10%;
+    text-decoration: none;
+}

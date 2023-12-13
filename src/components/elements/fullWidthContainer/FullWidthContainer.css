@@ -1,0 +1,23 @@
+.full-width-container {
+    width: calc(100%-20px);
+    margin: 2%;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px blanchedalmond;
+    border-radius: 2%;
+    text-align: center;
+    font-family: 'Verdana', sans-serif;
+    background-color: #f0f0f0;
+    padding: 2%;
+    white-space: pre-wrap;
+  }
+
+
+  
+  .centered-text {
+    margin-top: 2%;
+  }
+  
+  .left-aligned-text {
+    text-align: left;
+    margin: 2%;
+  }

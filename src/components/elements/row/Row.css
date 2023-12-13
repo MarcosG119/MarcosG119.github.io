@@ -1,0 +1,13 @@
+.row-container {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .row-container > div {
+    flex: 1;
+    margin-right: 10px; /* Optional: Add margin between div elements */
+  }
+  
+  .row-container > div:last-child {
+    margin-right: 0; /* Remove margin for the last div element */
+  }

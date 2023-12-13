@@ -1,0 +1,9 @@
+.div {
+    white-space: pre-wrap;
+    font-family: Verdana, Arial;
+}
+
+.div p {
+
+    text-align: left;
+}

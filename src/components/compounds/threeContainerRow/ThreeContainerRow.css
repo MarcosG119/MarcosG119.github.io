@@ -1,0 +1,4 @@
+.threeContainerRowDiv {
+    display: 'flex';
+    justify-content: 'space-between';
+}

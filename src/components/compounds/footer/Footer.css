@@ -1,0 +1,102 @@
+footer{
+    background-color: rgb(30, 30, 30);
+
+    overflow: hidden;
+
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+}
+
+
+
+.footer-row{
+    display: flex;
+    
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.footer-column{
+    flex:33%;
+}
+#footer p{
+    margin:auto;
+    display:flex;
+    text-align: center;
+    color:white;
+    font-family: copperplate;
+    padding-top: 2.5%;
+
+    width:75%;
+}
+
+#footer h3{
+    color: blanchedalmond;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+    text-decoration:underline;
+}
+
+#footer-logo h1, #footer-logo Link{
+
+
+    font-family: Copperplate, 'Times New Roman', Times, serif;
+    text-align: left;
+    color: blanchedalmond;
+    font-size: 150%;
+
+    padding-top: 0.5%;
+    padding-left: 2%;
+    padding-bottom: 1%;
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+
+    text-decoration: none;
+}
+
+#footer-menu{
+    padding-left: 5%;
+}
+#footer-menu ul{
+    font-family: copperplate;
+    color: white;
+}
+
+
+#footer-menu li,Link{
+    display: block; 
+    color:white;
+    text-decoration: none;
+    padding-bottom: 1%;
+}
+
+#footer-menu Link:hover{
+    text-decoration: underline;
+    color:white;
+}
+
+
+#footer-socials-menu{
+    text-align: right;
+    padding-right: 5%;
+}
+
+#footer-socials-menu ul{
+    font-family: copperplate;
+    color: white;
+}
+
+
+#footer-socials-menu li,Link{
+    font-family: copperplate;
+    display: block; 
+    color:white;
+    text-decoration: none;
+    padding-bottom: 1%;
+}
+
+#footer-socials-menu Link:hover{
+    text-decoration: underline;
+    color:white;
+}
+

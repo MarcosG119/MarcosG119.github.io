@@ -1,0 +1,15 @@
+.container {
+
+    margin: 2%;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px blanchedalmond;
+    border-radius: 2%;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 2%;
+  }
+
+
+  .container img {
+    border-radius: 2%;
+  }
