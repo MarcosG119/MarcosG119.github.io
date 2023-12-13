@@ -46,41 +46,6 @@ const router = createBrowserRouter([
             }
         ]
 
-    },
-    {
-        path: "/projects",
-        element: <App />,
-        children: [
-            {
-                path: "/",
-                element: <Homepage />
-            },
-            {
-                path: "/work-experience/",
-                element: <WorkExperience />
-            },
-            {
-                path: "/resume/",
-                element: <Resume />
-            },
-            {
-                path: "/hobbies/",
-                element: <Hobbies />
-            },
-            {
-                path: "/about-me/",
-                element: <AboutMe />
-            },
-            {
-                path: "/contact/",
-                element: <ContactMe />
-            },
-            {
-                path: "/projects/",
-                element: <Projects />
-            }
-        ]
-
     }
 ])
 
