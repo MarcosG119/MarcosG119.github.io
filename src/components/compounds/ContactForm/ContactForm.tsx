@@ -37,7 +37,7 @@ const ContactForm = () => {
       //personal email
       emailjs.sendForm('service_p8tgcj9', 'template_gcvkbso', currentForm, 'iLD4UH4G9Rf-Sb-Sj')
       .then((result) => {
-          alert("Your message has been sent! I will get back to you soon!")
+          alert("Your message has been sent! I will get back to you soon! :)")
           console.log(result.text);
       }, (error) => {
           alert("Try again!");
