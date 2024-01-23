@@ -1,6 +1,7 @@
 .div {
     white-space: pre-wrap;
     font-family: Verdana, Arial;
+    flex: auto;
 }
 
 .div p {
