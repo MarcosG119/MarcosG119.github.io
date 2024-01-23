@@ -55,7 +55,7 @@ const Homepage: React.FC = () => {
                     <Container>
                         <h3>Penguins Classification</h3>
                         <img src={PenguinsScreenshot} alt="Screenshot of homepage"></img>
-                        <p>This is a final project that I did for my Machine Learning in Python class. The goal was to analyze data on different species of penguins and find which factors made them most differentiable. This required using Seaborn and matplotlib as well as sci-kit-learn. We also used pandas for soem of the analysis and data cleaning.</p>
+                        <p>This is a final project that I did for my Machine Learning in Python class. The goal was to analyze data on different species of penguins and find which factors made them most differentiable. This required using Seaborn and matplotlib as well as sci-kit-learn. I also used pandas for soem of the analysis and data cleaning.</p>
                         <RowContainer>
                             <Button><Link to="https://drive.google.com/file/d/1fQtlxItqpaydJYUBzCoTaP37PXuvqLiB/view?usp=sharing">Google Drive Pdf</Link></Button>
                         </RowContainer>
