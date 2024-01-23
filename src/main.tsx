@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App.tsx';
 
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import {  RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Homepage from './pages/homepage/Homepage.tsx';
 import WorkExperience from './pages/work-experience/WorkExperience.tsx'
 import Resume from './pages/resume/Resume.tsx';
