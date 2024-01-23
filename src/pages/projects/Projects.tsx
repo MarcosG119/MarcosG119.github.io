@@ -29,7 +29,7 @@ const Homepage: React.FC = () => {
                     <Container>
                         <h3>Personal Website</h3>
                         <img src={WebScreenShot} alt="Screenshot of homepage"></img>
-                        <p>This is a personal website that was built on React and Node. It displays my projects on this page, work experience, and a few more personal things to get to know me better. There is also a contact page where you can contact me from that was built with node. </p>
+                        <p>This is a personal website that was built with React. It displays my projects on this page, work experience, and a few more personal things to get to know me better. There is also a contact page using EmailJS API where you can contact me. </p>
                         <RowContainer>
                             <Button><Link to="https://github.com/MarcosG119/marcosg119.github.io">Github</Link></Button>
                             <Button><Link to="/">Use</Link></Button>
