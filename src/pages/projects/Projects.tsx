@@ -25,33 +25,37 @@ const Homepage: React.FC = () => {
                 <RowContainer>
 
 
-                    <div className='div'>
+                    <div>
                     <Container>
                         <h3>Personal Website</h3>
                         <img src={WebScreenShot} alt="Screenshot of homepage"></img>
                         <p>This is a personal website that was built with React. It displays my projects on this page, work experience, and a few more personal things to get to know me better. There is also a contact page using EmailJS API where you can contact me. </p>
+                        <div className="buttonRow">
                         <RowContainer>
                             <Button><Link to="https://github.com/MarcosG119/marcosg119.github.io">Github</Link></Button>
                             <Button><Link to="/">Use</Link></Button>
                         </RowContainer>
+                        </div>
                     </Container>
                     </div>
 
 
-                    <div className='div'>
+                    <div>
                     <Container>
                         <h3>Plant Papa</h3>
                         <img src={PlantPapaScreenshot} alt="Screenshot of login"></img>
                         <p>I built this webapp to help me manage plants I wanted to care for. You can create notes and track the date last watered for any plant in the Trefle API database. The information is stored using google firestore and the backend is built using node and express. You can also identify plants using the Plantnet Plant Classification API. The backend must be ran through a local server because you have to pay to use third party API with google. Authentication still works however because it is using Firebase authentication.</p>
-                        <RowContainer>
-                            <Button><Link to="https://github.com/MarcosG119/Plant-Papa">Github</Link></Button>
-                            <Button><Link to="https://plant-papa.web.app/login">Use</Link></Button>
-                        </RowContainer>
+                        
+                            <RowContainer>
+                                <Button><Link to="https://github.com/MarcosG119/Plant-Papa">Github</Link></Button>
+                                <Button><Link to="https://plant-papa.web.app/login">Use</Link></Button>
+                            </RowContainer>
+
                     </Container>
                     </div>
 
 
-                    <div className='div'>
+                    <div>
                     <Container>
                         <h3>Penguins Classification</h3>
                         <img src={PenguinsScreenshot} alt="Screenshot of homepage"></img>

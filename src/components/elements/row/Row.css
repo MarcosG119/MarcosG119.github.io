@@ -1,13 +1,17 @@
 .row-container {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
   }
   
   .row-container > div {
+    margin-right: 10px;
+    white-space: pre-wrap;
+    font-family: Verdana, Arial;
+    display: flex;
+    flex-direction: column;
     flex: 1;
-    margin-right: 10px; /* Optional: Add margin between div elements */
   }
   
-  .row-container > div:last-child {
-    margin-right: 0; /* Remove margin for the last div element */
+  .row-container > div * {
+    flex-grow: 1; 
   }
