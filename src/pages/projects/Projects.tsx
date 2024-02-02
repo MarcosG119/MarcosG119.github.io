@@ -15,8 +15,6 @@ import PlantPapaScreenshot from './images/plant-papa-screenshot.png';
 import PenguinsScreenshot from './images/penguins-project.png';
 import Row from '../../components/elements/row/Row.tsx';
 import ContactForm from '../../components/compounds/ContactForm/ContactForm.tsx';
-import FullWidthPhoto from '../../components/elements/fullWidthPhoto/FullWidthPhoto.tsx';
-import landscape_photo from './images/homepagelandscape.jpg';
 
 
 const Homepage: React.FC = () => {
