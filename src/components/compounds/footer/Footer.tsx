@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
             </div>
             <div className = "footer-row" id = "footer">
                 <div className = "footer-column" id = "footer-menu">
-                    <h3>Links</h3>
+                    {/* <h3>Links</h3>
                     <ul>
                     <li><Link to="/projects/">Projects</Link></li>
                     <li><Link to="/work-experience">Work Experience</Link></li>
@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
                     <li><Link to="/hobbies">Hobbies</Link></li>
                     <li><Link to="/about-me">About Me</Link></li>  
                     <li><Link to="/contact">Contact</Link></li>
-                    </ul>
+                    </ul> */}
                 </div>
                 <div className = "footer-column">
                     <p>Based in San Jose, CA<br />+1 (408) 823-8539<br />marcos.garcia5667@gmail.com<br />(Willing to relocate!)</p>

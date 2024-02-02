@@ -1,0 +1,30 @@
+.row-container {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.row-container p {
+    font-size: large;
+}
+
+img{
+    
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.text {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}

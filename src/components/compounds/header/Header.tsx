@@ -17,7 +17,7 @@ const Header: React.FC = () => {
             
             {/** Nav Menu */}
             <div id="menu">
-                <ul>                                   
+                {/* <ul>                                   
 
                     <li><Link to="/projects/">Projects</Link></li>
                     <li><Link to="/work-experience">Work Experience</Link></li>
@@ -25,7 +25,7 @@ const Header: React.FC = () => {
                     <li><Link to="/hobbies">Hobbies</Link></li>
                     <li><Link to="/about-me">About Me</Link></li>  
                     <li><Link to="/contact">Contact</Link></li>
-                </ul> 
+                </ul>  */}
             </div>
             <br />
 
